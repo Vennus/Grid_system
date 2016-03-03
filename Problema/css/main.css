@@ -1,0 +1,31 @@
+body{
+	background: #FDD0F7;
+}
+.icon{
+	    margin-top: 2%;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding-right: 5%;
+	position: relative;
+	right: -150px;
+}
+form{
+	text-align: right;
+	position: relative;
+	bottom: 23px;
+}
+form input{
+	border: 1px solid black;
+	padding: 0 0.5%;
+}
+form button{
+	border-radius: 5px;
+	border: 1px solid black; 
+}
+/*NAVEGADOR*/
+ .navegador-dos {
+	background: gray;
+	border: none;
+}
