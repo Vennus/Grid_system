@@ -1,15 +1,20 @@
+*{
+	color: black;
+}
 body{
-	background: #FDD0F7;
+	font-family: Helvetica;
 }
 .icon{
 	    margin-top: 2%;
 }
-a{
+header a{
 	text-decoration: none;
 	color: black;
 	padding-right: 5%;
 	position: relative;
 	right: -150px;
+	font-family: Helvetica;
+	z-index: 1;
 }
 form{
 	text-align: right;
@@ -26,6 +31,278 @@ form button{
 }
 /*NAVEGADOR*/
  .navegador-dos {
-	background: gray;
+	background: #AAAAAA;
 	border: none;
+}
+
+/*SECTION COL-MD-5*/
+.history{
+	color: black;
+}
+.history h3 {
+	background: #AAAAAA;
+	color: white;
+	padding: 1%;
+	width: 50%;
+}
+.history a{
+	font-family: Helvetica;
+	text-decoration: none;
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+.history p:nth-child(4) {
+	color: #AAAAAA;
+	text-align: justify;
+}
+.etiqueta{
+	padding-left: 10%;
+	font-family: Helvetica;
+	display: inline-block;
+	text-decoration: none;
+}
+span a{
+	color: #AAAAAA;
+}
+/*SECTION WEBZONE*/
+.web{
+	color: black;
+}
+.box-web p{
+	background: black;
+	color: white;
+	width: 20%;
+	padding: 0 2%;
+	float: left;
+	text-align: center;
+}
+.web p:nth-child(2){
+	color: black;
+	text-align: center;
+}
+.web p:nth-child(4){
+	color: #AAAAAA;
+	text-align: justify;
+}
+.web a{
+	text-decoration: none;
+	color: #AAAAAA;
+	font-family: Helvetica;
+	text-decoration: underline;
+}
+
+/*SECTION ARTICULO*/
+.articulo{
+	color: black;
+}
+.articulo p a{
+	color: #AAAAAA;
+}
+.articulo p:nth-child(4){
+	color: #AAAAAA;
+	text-align: justify;
+}
+.box-enero{
+	width: 100px;
+	height: 100px;
+	background: #AAAAAA;
+	float: left;
+	text-align: center;
+}
+.etiqueta a{
+	font-family: Helvetica;
+	text-decoration: none;
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+/*FINAL DE SECTION */
+.pie-section {
+	color: black;
+	padding-bottom: 15%;
+}
+.pie-section p{
+	color:#AAAAAA;
+	text-align: justify;
+}
+/*segundo section video*/
+
+.box-video{
+	background: #D6D6D6;
+	padding:0 3%;
+	color: #9D9D9D;
+	padding-bottom: 1%;
+}
+.box-video h4{
+	color: black;
+}
+.text-video h3 {
+	background: #929292;
+	color: white;
+	padding: 1%;
+	width: 65%;
+}
+.box-video span{
+	padding-left: 20%;
+	color: black
+}
+/*SECTION AGENDA*/
+.text-agenda h3{
+	background: #929292;
+	color: white;
+	padding: 1%;
+	width: 35%;
+}
+.box-fecha{
+	width: 90%;
+	height: 90%;
+	background: #929292;
+	padding: 0.8%;
+	text-align: center;
+	color: black;
+}
+.box-agenda h4{
+	margin: 2% 0;
+	padding: 0;
+}
+.box-agenda p{
+	font-size: 0.8em;
+	padding: 0;
+	margin: 3.3% 0;
+	color:#AAAAAA;
+}
+/*SECTION FINAL DE COL-MD-4 INFORMATION*/
+.information a{
+	text-decoration: none;
+	color:#AAAAAA;
+	padding: 0;
+	margin:0;
+	text-decoration: underline;
+}
+.information p{
+	
+	text-align: justify;
+}
+.information h4{
+	margin:0;
+	padding: 0;
+}
+/*MAS INFORMACION*/
+.text-information a {
+	display: inline-block;
+	padding-left: 6%;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: black;
+}
+/*TEXTO MEGAZINE*/
+.megazine{
+	background: #E8E6E6;
+	margin: 1%;
+	padding: 2%;
+}
+.megazine p,h5{
+	font-size: 0.9em;
+	color: #AAAAAA;
+}
+.text-mega h3{
+	margin:0;
+}
+/*TEXTO DE ACCIONES*/
+.text-acciones{
+	background: #E8E6E6;
+	margin-top: 5%;
+	padding: 2%;
+}
+.text-acciones p,h5{
+	font-size: 0.9em;
+	color: #AAAAAA;
+}
+/*ULTIMO TEXTO*/
+.tex-extra{
+	margin-top: 15%;
+	background: #E8E6E6;
+	padding: 4%;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+/*FOOTER*/
+footer{
+	border-top: 8px solid black;
+	padding: 5% 0;
+}
+footer a,p{
+	font-size: 0.9em;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+@media  screen and (min-width:320px)and (max-width: 767px) {
+	footer {
+		width: 100%;
+	}
+	.box-agenda .col-xs-4{
+		width: 30%;
+	}
+	.box-agenda .col-xs-8{
+		width: 70%;
+	}
+	.navbar-default{
+		width: 100%;
+		font-size: 0.9em;
+	}
+
+}
+
+ 
+@media  screen and (min-width:768px)and (max-width:1199px) {
+	.box-agenda .col-xs-4{
+		width: 30%;
+	}
+	.box-agenda .col-xs-8{
+		width: 70%;
+	}
+	.historia-general .col-md-5{
+		width: 50%;
+		float: left;
+	}
+	.video-general .col-md-4{
+		width: 50%;
+	}
+	.informacion-original {
+		display: none;
+	}
+	.navbar-default{
+		width: 100%;
+		font-size: 0.9em;
+	}
+	.navegador-dos{
+		position: relative;
+		right:50px;
+	}
+	.articulo img{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+	footer .rubros .col-md-2{
+		width: 25%;
+	}
+	footer .suscripcion .col-md-3{
+		width: 25%;
+	}
+	footer .expertise{
+		display: none;
+	}
+
+}
+
+@media  screen and (min-width: 1200px){
+ .container{
+ 	width: 100%;
+ }
+
 }
